@@ -1,0 +1,39 @@
+{
+  "name": "iview-snippets",
+  "version": "0.0.2",
+  "description": "iview snippets plugin for vscode.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrankKai/iview-snippets.git"
+  },
+  "keywords": [
+    "iview",
+    "vscode",
+    "snippets"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FrankKai/iview-snippets/issues"
+  },
+  "homepage": "https://github.com/FrankKai/iview-snippets#readme",
+  "engines": {
+    "vscode": "^1.22.0"
+  },
+  "publisher": "iview-snippets-publisher",
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets.json"
+      }
+    ]
+  }
+}
