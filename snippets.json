@@ -1,7 +1,151 @@
 {
+  "Button default": {
+    "prefix": [
+      "i-Button-default"
+    ],
+    "body": [
+      "<Button type='default'></Button>"
+    ],
+    "description": "iview Button default."
+  },
+  "Button primary": {
+    "prefix": [
+      "i-Button-primary"
+    ],
+    "body": [
+      "<Button type='primary'></Button>"
+    ],
+    "description": "iview Button primary."
+  },
+  "Button dashed": {
+    "prefix": [
+      "i-Button-dashed"
+    ],
+    "body": [
+      "<Button type='dashed'></Button>"
+    ],
+    "description": "iview Button dashed."
+  },
+  "Button text": {
+    "prefix": [
+      "i-Button-text"
+    ],
+    "body": [
+      "<Button type='text'></Button>"
+    ],
+    "description": "iview Button text."
+  },
+  "Button info": {
+    "prefix": [
+      "i-Button-info"
+    ],
+    "body": [
+      "<Button type='info'></Button>"
+    ],
+    "description": "iview Button info."
+  },
+  "Button success": {
+    "prefix": [
+      "i-Button-success"
+    ],
+    "body": [
+      "<Button type='success'></Button>"
+    ],
+    "description": "iview Button success."
+  },
+  "Button warning": {
+    "prefix": [
+      "i-Button-warning"
+    ],
+    "body": [
+      "<Button type='warning'></Button>"
+    ],
+    "description": "iview Button warning."
+  },
+  "Button error": {
+    "prefix": [
+      "i-Button-error"
+    ],
+    "body": [
+      "<Button type='error'></Button>"
+    ],
+    "description": "iview Button error."
+  },
+  "Input text": {
+    "prefix": [
+      "i-Input-text"
+    ],
+    "body": [
+      "<Input type='text' value=''></Input>"
+    ],
+    "description": "iview Input text."
+  },
+  "Input password": {
+    "prefix": [
+      "i-Input-password"
+    ],
+    "body": [
+      "<Input type='password' value=''></Input>"
+    ],
+    "description": "iview Input password."
+  },
+  "Input textarea": {
+    "prefix": [
+      "i-Input-textarea"
+    ],
+    "body": [
+      "<Input type='textarea' value=''></Input>"
+    ],
+    "description": "iview Input textarea."
+  },
+  "Input url": {
+    "prefix": [
+      "i-Input-url"
+    ],
+    "body": [
+      "<Input type='url' value=''></Input>"
+    ],
+    "description": "iview Input url."
+  },
+  "Input email": {
+    "prefix": [
+      "i-Input-email"
+    ],
+    "body": [
+      "<Input type='email' value=''></Input>"
+    ],
+    "description": "iview Input email."
+  },
+  "Input date": {
+    "prefix": [
+      "i-Input-date"
+    ],
+    "body": [
+      "<Input type='date' value=''></Input>"
+    ],
+    "description": "iview Input date."
+  },
+  "Input number": {
+    "prefix": [
+      "i-Input-number"
+    ],
+    "body": [
+      "<Input type='number' value=''></Input>"
+    ],
+    "description": "iview Input number."
+  },
+  "Input tel": {
+    "prefix": [
+      "i-Input-tel"
+    ],
+    "body": [
+      "<Input type='tel' value=''></Input>"
+    ],
+    "description": "iview Input tel."
+  },
   "color Primary": {
     "prefix": [
-      "iview-color-primary"
+      "i-color-primary"
     ],
     "body": [
       "#2d8cf0"
@@ -10,7 +154,7 @@
   },
   "color Light Primary": {
     "prefix": [
-      "iview-color-light-primary"
+      "i-color-light-primary"
     ],
     "body": [
       "#5cadff"

@@ -21,7 +21,7 @@
   "engines": {
     "vscode": "^1.22.0"
   },
-  "publisher": "iview-snippets-publisher",
+  "publisher": "frankkai",
   "categories": [
     "Snippets"
   ],
