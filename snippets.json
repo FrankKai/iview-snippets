@@ -1,0 +1,128 @@
+{
+  "color Primary": {
+    "prefix": [
+      "iview-color-primary"
+    ],
+    "body": [
+      "#2d8cf0"
+    ],
+    "description": "iView color Primary."
+  },
+  "color Light Primary": {
+    "prefix": [
+      "iview-color-light-primary"
+    ],
+    "body": [
+      "#5cadff"
+    ],
+    "description": "iView color Light Primary."
+  },
+  "color Dark Primary": {
+    "prefix": [
+      "iview-color-dark-primary"
+    ],
+    "body": [
+      "#2b85e4"
+    ],
+    "description": "iView color Dark Primary."
+  },
+  "color Info": {
+    "prefix": [
+      "iview-color-info"
+    ],
+    "body": [
+      "#2db7f5"
+    ],
+    "description": "iView color Info."
+  },
+  "color Success": {
+    "prefix": [
+      "iview-color-success"
+    ],
+    "body": [
+      "#19be6b"
+    ],
+    "description": "iView color Success."
+  },
+  "color Warning": {
+    "prefix": [
+      "iview-color-warning"
+    ],
+    "body": [
+      "#ff9900"
+    ],
+    "description": "iView color Warning."
+  },
+  "color Error": {
+    "prefix": [
+      "iview-color-error"
+    ],
+    "body": [
+      "#ed4014"
+    ],
+    "description": "iView color Error."
+  },
+  "color Title": {
+    "prefix": [
+      "iview-color-title"
+    ],
+    "body": [
+      "#17233d"
+    ],
+    "description": "iView color Title."
+  },
+  "color Content": {
+    "prefix": [
+      "iview-color-content"
+    ],
+    "body": [
+      "#515a6e"
+    ],
+    "description": "iView color Content."
+  },
+  "color Sub Color": {
+    "prefix": [
+      "iview-color-sub-color"
+    ],
+    "body": [
+      "#808695"
+    ],
+    "description": "iView color Sub Color."
+  },
+  "color Disabled": {
+    "prefix": [
+      "iview-color-disabled"
+    ],
+    "body": [
+      "#c5c8ce"
+    ],
+    "description": "iView color Disabled."
+  },
+  "color Border": {
+    "prefix": [
+      "iview-color-border"
+    ],
+    "body": [
+      "#dcdee2"
+    ],
+    "description": "iView color Border."
+  },
+  "color Divider": {
+    "prefix": [
+      "iview-color-divider"
+    ],
+    "body": [
+      "#e8eaec"
+    ],
+    "description": "iView color Divider."
+  },
+  "color Background": {
+    "prefix": [
+      "iview-color-background"
+    ],
+    "body": [
+      "#17233d"
+    ],
+    "description": "iView color Background."
+  }
+}
