@@ -1,4 +1,94 @@
 {
+  "Table": {
+    "prefix": [
+      "i-Table"
+    ],
+    "body": [
+      "<Table columns='' data=''></Table>"
+    ],
+    "description": "iview Table."
+  },
+  "Form": {
+    "prefix": [
+      "i-Form"
+    ],
+    "body": [
+      "<Form ref='' :model='' :rules=''></Form>"
+    ],
+    "description": "iview Form."
+  },
+  "Form item": {
+    "prefix": [
+      "i-Form-item"
+    ],
+    "body": [
+      "<FormItem label='' prop=''></FormItem>"
+    ],
+    "description": "iview Form FormItem."
+  },
+  "Form footer": {
+    "prefix": [
+      "i-Form-footer"
+    ],
+    "body": [
+      "<FormItem><Button type='primary' @click='confirm'>确定</Button><Button @click='cancel'>取消</Button></FormItem>"
+    ],
+    "description": "iview Form footer."
+  },
+  "Modal": {
+    "prefix": [
+      "i-Modal"
+    ],
+    "body": [
+      "<Modal ref='xxxRef' :value='xxxModal' :title='xxxTitle' @on-ok='ok' @on-cancel='cancel'></Modal>"
+    ],
+    "description": "iview Modal."
+  },
+  "Modal footer": {
+    "prefix": [
+      "i-Modal-footer"
+    ],
+    "body": [
+      "<div slot='footer'><Button type='primary' @click='confirm'>确定</Button><Button @click='cancel'>取消</Button></div>"
+    ],
+    "description": "iview Modal footer."
+  },
+  "Page": {
+    "prefix": [
+      "i-Page"
+    ],
+    "body": [
+      "<Page :total='page.total' show-total :current='page.pageIndex' :page-size='page.pageSize' @on-change='pageIndexChange'/>"
+    ],
+    "description": "iview Page."
+  },
+  "slot header": {
+    "prefix": [
+      "i-slot-header"
+    ],
+    "body": [
+      "<div slot='header'></div>"
+    ],
+    "description": "iview slot header."
+  },
+  "slot content": {
+    "prefix": [
+      "i-slot-content"
+    ],
+    "body": [
+      "<div slot='content'></div>"
+    ],
+    "description": "iview slot content."
+  },
+  "slot footer": {
+    "prefix": [
+      "i-slot-footer"
+    ],
+    "body": [
+      "<div slot='footer'></div>"
+    ],
+    "description": "iview slot footer."
+  },
   "Button default": {
     "prefix": [
       "i-Button-default"
@@ -142,6 +232,123 @@
       "<Input type='tel' value=''></Input>"
     ],
     "description": "iview Input tel."
+  },
+  "Icon": {
+    "prefix": [
+      "i-Icon"
+    ],
+    "body": [
+      "<Icon type='' size=''></Icon>"
+    ],
+    "description": "iview Icon."
+  },
+  "Icon custom": {
+    "prefix": [
+      "i-Icon-custom"
+    ],
+    "body": [
+      "<Icon custom='' size=''></Icon>"
+    ],
+    "description": "iview Icon custom."
+  },
+  "Message info": {
+    "prefix": [
+      "i-Message-info"
+    ],
+    "body": [
+      "this.$Message.info({ content: '' })"
+    ],
+    "description": "iview Message info."
+  },
+  "Message success": {
+    "prefix": [
+      "i-Message-success"
+    ],
+    "body": [
+      "this.$Message.success({ content: '' })"
+    ],
+    "description": "iview Message success."
+  },
+  "Message warning": {
+    "prefix": [
+      "i-Message-warning"
+    ],
+    "body": [
+      "this.$Message.warning({ content: '' })"
+    ],
+    "description": "iview Message warning."
+  },
+  "Message error": {
+    "prefix": [
+      "i-Message-error"
+    ],
+    "body": [
+      "this.$Message.error({ content: '' })"
+    ],
+    "description": "iview Message error."
+  },
+  "Message loading": {
+    "prefix": [
+      "i-Message-loading"
+    ],
+    "body": [
+      "this.$Message.loading({ content: '' })"
+    ],
+    "description": "iview Message loading."
+  },
+  "Notice open": {
+    "prefix": [
+      "i-Notice-open"
+    ],
+    "body": [
+      "this.$Notice.open({ content: '' })"
+    ],
+    "description": "iview Notice open."
+  },
+  "Notice info": {
+    "prefix": [
+      "i-Notice-info"
+    ],
+    "body": [
+      "this.$Notice.info({ content: '' })"
+    ],
+    "description": "iview Notice info."
+  },
+  "Notice success": {
+    "prefix": [
+      "i-Notice-success"
+    ],
+    "body": [
+      "this.$Notice.success({ content: '' })"
+    ],
+    "description": "iview Notice success."
+  },
+  "Notice warning": {
+    "prefix": [
+      "i-Notice-warning"
+    ],
+    "body": [
+      "this.$Notice.warning({ content: '' })"
+    ],
+    "description": "iview Notice warning."
+  },
+  "Notice error": {
+    "prefix": [
+      "i-Notice-error"
+    ],
+    "body": [
+      "this.$Notice.error({ content: '' })"
+    ],
+    "description": "iview Notice error."
+  },
+  "Poptip": {
+    "prefix": [
+      "i-Poptip"
+    ],
+    "body": [
+      "<Poptip trigger='hover' title='' content=''></Poptip>"
+    ],
+    "description": "iview Poptip."
   },
   "color Primary": {
     "prefix": [
