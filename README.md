@@ -10,24 +10,24 @@ iview snippets plugin for vscode.
 
 ## Form
 
-| Form          | Snippet                                                                                                           |
-| ------------- | ----------------------------------------------------------------------------------------------------------------- |
-| i-Form        | `<Form ref='' :model='' :rules=''></Form>`                                                                        |
-| i-Form-item   | `<FormItem label='' prop=''></FormItem>`                                                                          |
+| Form          | Snippet                                                                                              |
+| ------------- | ---------------------------------------------------------------------------------------------------- |
+| i-Form        | `<Form ref='' :model='' :rules=''></Form>`                                                           |
+| i-Form-item   | `<FormItem label='' prop=''></FormItem>`                                                             |
 | i-Form-footer | `<FormItem><Button type='primary' @click=''>ok</Button><Button @click=''>cancel</Button></FormItem>` |
 
 ## Modal
 
-| Modal          | Snippet                                                                                                               |
-| -------------- | --------------------------------------------------------------------------------------------------------------------- |
-| i-Modal        | `<Modal ref='' :value='' :title='' @on-ok='ok' @on-cancel='cancel'></Modal>`                    |
+| Modal          | Snippet                                                                                                  |
+| -------------- | -------------------------------------------------------------------------------------------------------- |
+| i-Modal        | `<Modal ref='' :value='' :title='' @on-ok='ok' @on-cancel='cancel'></Modal>`                             |
 | i-Modal-footer | `<div slot='footer'><Button type='primary' @click=''>ok</Button><Button @click=''>cancel</Button></div>` |
 
 ## Page
 
-| Page   | Snippet                                                                                                                    |
-| ------ | -------------------------------------------------------------------------------------------------------------------------- |
-| i-Page | `<Page :total='' show-total :current='' :page-size='' @on-change=''/>` |
+| Page   | Snippet                                                  |
+| ------ | -------------------------------------------------------- |
+| i-Page | `<Page :total='' show-total :current='' :page-size=''/>` |
 
 ## slot
 
@@ -52,7 +52,7 @@ iview snippets plugin for vscode.
 
 ## Input
 
-| Button           | Snippet                                    |
+| Input            | Snippet                                    |
 | ---------------- | ------------------------------------------ |
 | i-Input-text     | `<Input type='text' value=''></Input>`     |
 | i-Input-password | `<Input type='password' value=''></Input>` |
@@ -62,6 +62,32 @@ iview snippets plugin for vscode.
 | i-Input-date     | `<Input type='date' value=''></Input>`     |
 | i-Input-number   | `<Input type='number' value=''></Input>`   |
 | i-Input-tel      | `<Input type='tel' value=''></Input>`      |
+
+## Radio
+
+| Radio        | Snippet                                                                                                                                |
+| ------------ | -------------------------------------------------------------------------------------------------------------------------------------- |
+| i-Radio      | `<Radio v-model=''>Radio</Radio>`                                                                                                      |
+| i-RadioGroup | `<RadioGroup v-model=''><Radio v-for='(ratio, i) in ratios' :key='ratio.id' :label='ratio.value' {{ratio.label}}</Radio></RadioGroup>` |
+
+## Checkbox
+
+| Checkbox        | Snippet                                                                                                                                                              |
+| --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| i-Checkbox      | `<Checkbox v-model=''></Checkbox>`                                                                                                                                   |
+| i-CheckboxGroup | `<Checkbox-group v-model=''><Checkbox v-for='(checkbox, i) in checkboxes' :key='checkbox.id' :label='checkbox.value' {{checkbox.label}}</Checkbox></Checkbox-group>` |
+
+## Switch
+
+| Switch   | Snippet                                      |
+| -------- | -------------------------------------------- |
+| i-Switch | `<Switch v-model='' @on-change=''></Switch>` |
+
+## Spin
+
+| Spin   | Snippet                 |
+| ------ | ----------------------- |
+| i-Spin | `<Spin v-if=''></Spin>` |
 
 ## Icon
 
@@ -98,7 +124,7 @@ iview snippets plugin for vscode.
 
 ## color
 
-| Button                | Snippet   |
+| color                 | Snippet   |
 | --------------------- | --------- |
 | i-color-primary       | `#2d8cf0` |
 | i-color-light-primary | `#5cadff` |

@@ -233,6 +233,60 @@
     ],
     "description": "iview Input tel."
   },
+  "Radio": {
+    "prefix": [
+      "i-Radio"
+    ],
+    "body": [
+      "<Radio v-model=''>Radio</Radio>"
+    ],
+    "description": "iview Radio."
+  },
+  "RadioGroup": {
+    "prefix": [
+      "i-RadioGroup"
+    ],
+    "body": [
+      "<RadioGroup v-model=''><Radio v-for='(ratio, i) in ratios' :key='ratio.id' :label='ratio.value' {{ratio.label}}</Radio></RadioGroup>"
+    ],
+    "description": "iview RadioGroup."
+  },
+  "Checkbox": {
+    "prefix": [
+      "i-Checkbox"
+    ],
+    "body": [
+      "<Checkbox v-model=''></Checkbox>"
+    ],
+    "description": "iview Checkbox."
+  },
+  "CheckboxGroup": {
+    "prefix": [
+      "i-CheckboxGroup"
+    ],
+    "body": [
+      "<Checkbox-group v-model=''><Checkbox v-for='(checkbox, i) in checkboxes' :key='checkbox.id' :label='checkbox.value' {{checkbox.label}}</Checkbox></Checkbox-group>"
+    ],
+    "description": "iview CheckboxGroup."
+  },
+  "Switch": {
+    "prefix": [
+      "i-Switch"
+    ],
+    "body": [
+      "<Switch v-model='' @on-change=''></Switch>"
+    ],
+    "description": "iview Switch."
+  },
+  "Spin": {
+    "prefix": [
+      "i-Spin"
+    ],
+    "body": [
+      "<Spin v-if=''></Spin>"
+    ],
+    "description": "iview Spin."
+  },
   "Icon": {
     "prefix": [
       "i-Icon"
