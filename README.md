@@ -14,20 +14,20 @@ iview snippets plugin for vscode.
 | ------------- | ----------------------------------------------------------------------------------------------------------------- |
 | i-Form        | `<Form ref='' :model='' :rules=''></Form>`                                                                        |
 | i-Form-item   | `<FormItem label='' prop=''></FormItem>`                                                                          |
-| i-Form-footer | `<FormItem><Button type='primary' @click='confirm'>确定</Button><Button @click='cancel'>取消</Button></FormItem>` |
+| i-Form-footer | `<FormItem><Button type='primary' @click=''>ok</Button><Button @click=''>cancel</Button></FormItem>` |
 
 ## Modal
 
 | Modal          | Snippet                                                                                                               |
 | -------------- | --------------------------------------------------------------------------------------------------------------------- |
-| i-Modal        | `<Modal ref='xxxRef' :value='xxxModal' :title='xxxTitle' @on-ok='ok' @on-cancel='cancel'></Modal>`                    |
-| i-Modal-footer | `<div slot='footer'><Button type='primary' @click='confirm'>确定</Button><Button @click='cancel'>取消</Button></div>` |
+| i-Modal        | `<Modal ref='' :value='' :title='' @on-ok='ok' @on-cancel='cancel'></Modal>`                    |
+| i-Modal-footer | `<div slot='footer'><Button type='primary' @click=''>ok</Button><Button @click=''>cancel</Button></div>` |
 
 ## Page
 
 | Page   | Snippet                                                                                                                    |
 | ------ | -------------------------------------------------------------------------------------------------------------------------- |
-| i-Page | `<Page :total='page.total' show-total :current='page.pageIndex' :page-size='page.pageSize' @on-change='pageIndexChange'/>` |
+| i-Page | `<Page :total='' show-total :current='' :page-size='' @on-change=''/>` |
 
 ## slot
 

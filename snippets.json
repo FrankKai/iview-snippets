@@ -31,7 +31,7 @@
       "i-Form-footer"
     ],
     "body": [
-      "<FormItem><Button type='primary' @click='confirm'>确定</Button><Button @click='cancel'>取消</Button></FormItem>"
+      "<FormItem><Button type='primary' @click=''>ok</Button><Button @click=''>cancel</Button></FormItem>"
     ],
     "description": "iview Form footer."
   },
@@ -40,7 +40,7 @@
       "i-Modal"
     ],
     "body": [
-      "<Modal ref='xxxRef' :value='xxxModal' :title='xxxTitle' @on-ok='ok' @on-cancel='cancel'></Modal>"
+      "<Modal ref='' :value='' :title='' @on-ok='ok' @on-cancel='cancel'></Modal>"
     ],
     "description": "iview Modal."
   },
@@ -49,7 +49,7 @@
       "i-Modal-footer"
     ],
     "body": [
-      "<div slot='footer'><Button type='primary' @click='confirm'>确定</Button><Button @click='cancel'>取消</Button></div>"
+      "<div slot='footer'><Button type='primary' @click=''>ok</Button><Button @click=''>cancel</Button></div>"
     ],
     "description": "iview Modal footer."
   },
@@ -58,7 +58,7 @@
       "i-Page"
     ],
     "body": [
-      "<Page :total='page.total' show-total :current='page.pageIndex' :page-size='page.pageSize' @on-change='pageIndexChange'/>"
+      "<Page :total='' show-total :current='' :page-size='' @on-change=''/>"
     ],
     "description": "iview Page."
   },
