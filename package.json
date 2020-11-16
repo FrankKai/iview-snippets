@@ -38,6 +38,10 @@
       {
         "language": "javascript",
         "path": "./snippets.json"
+      },
+      {
+        "language": "vue-html",
+        "path": "./snippets.json"
       }
     ]
   }
