@@ -424,7 +424,7 @@
   },
   "color Dark Primary": {
     "prefix": [
-      "iview-color-dark-primary"
+      "i-color-dark-primary"
     ],
     "body": [
       "#2b85e4"
@@ -433,7 +433,7 @@
   },
   "color Info": {
     "prefix": [
-      "iview-color-info"
+      "i-color-info"
     ],
     "body": [
       "#2db7f5"
@@ -442,7 +442,7 @@
   },
   "color Success": {
     "prefix": [
-      "iview-color-success"
+      "i-color-success"
     ],
     "body": [
       "#19be6b"
@@ -451,7 +451,7 @@
   },
   "color Warning": {
     "prefix": [
-      "iview-color-warning"
+      "i-color-warning"
     ],
     "body": [
       "#ff9900"
@@ -460,7 +460,7 @@
   },
   "color Error": {
     "prefix": [
-      "iview-color-error"
+      "i-color-error"
     ],
     "body": [
       "#ed4014"
@@ -469,7 +469,7 @@
   },
   "color Title": {
     "prefix": [
-      "iview-color-title"
+      "i-color-title"
     ],
     "body": [
       "#17233d"
@@ -478,7 +478,7 @@
   },
   "color Content": {
     "prefix": [
-      "iview-color-content"
+      "i-color-content"
     ],
     "body": [
       "#515a6e"
@@ -487,7 +487,7 @@
   },
   "color Sub Color": {
     "prefix": [
-      "iview-color-sub-color"
+      "i-color-sub-color"
     ],
     "body": [
       "#808695"
@@ -496,7 +496,7 @@
   },
   "color Disabled": {
     "prefix": [
-      "iview-color-disabled"
+      "i-color-disabled"
     ],
     "body": [
       "#c5c8ce"
@@ -505,7 +505,7 @@
   },
   "color Border": {
     "prefix": [
-      "iview-color-border"
+      "i-color-border"
     ],
     "body": [
       "#dcdee2"
@@ -514,7 +514,7 @@
   },
   "color Divider": {
     "prefix": [
-      "iview-color-divider"
+      "i-color-divider"
     ],
     "body": [
       "#e8eaec"
@@ -523,7 +523,7 @@
   },
   "color Background": {
     "prefix": [
-      "iview-color-background"
+      "i-color-background"
     ],
     "body": [
       "#17233d"
