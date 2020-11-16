@@ -28,6 +28,14 @@
   "contributes": {
     "snippets": [
       {
+        "language": "vue",
+        "path": "./snippets.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets.json"
+      },
+      {
         "language": "javascript",
         "path": "./snippets.json"
       }
